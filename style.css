@@ -1,0 +1,721 @@
+@font-face{
+    font-family: Mario;
+    src: url(font/supermariobros..ttf)
+}
+@font-face{
+    font-family: Bad;
+    src: url(font/badgrunge.ttf)
+}
+@font-face{
+    font-family: kartooni;
+    src: url(font/kartooni.ttf)
+}
+@font-face{
+    font-family: Foot;
+    src: url(font/varsityregular.ttf)
+}
+
+/*_____________________________                                                _____________________________*/
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+/*_____________________________                DOUBLE DES BOUTON                   _____________________________*/
+
+
+    .btndouble{
+        display: none;
+        
+    }
+
+    .pendantpetit{
+        display: none;
+    }
+
+
+
+
+/*_____________________________                      HEADER                        _____________________________*/
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(194, 0, 39);
+    }
+
+    h1{
+        font-family:Mario;
+        font-size: 4rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        text-shadow: 1px 1px 3px white;
+    }
+
+/*_____________________________                   SECTION KIT                    _____________________________*/
+
+    .divkit{
+        background-color: black;
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2{
+        font-family:Mario;
+        color:rgb(194, 0, 39);
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 0%;
+    }
+
+    span{
+        font-family:Mario;
+        color:rgb(194, 0, 39);
+        font-size: 3rem;
+    }
+
+    .sectionkit{
+        background-color: rgb(77, 73, 73);
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sectionkit article{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sectionkit h3{
+        font-family:Bad;
+        font-size: 4rem;
+        color:rgb(0, 9, 88);
+        letter-spacing: 3px;
+        text-shadow: 2px 2px 5px white;
+    }
+
+    .sectionkit article ol li a{
+        font-family:Kartooni;
+        color: white;
+        text-decoration: none;
+    }
+
+    .sectionkit article ol li{
+        font-family:Kartooni;
+        color: white;
+        text-align:start;
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+        margin-bottom: 18px;  
+    }
+
+/*_____________________________                 SECTION RASPBERRY                    _____________________________*/
+
+    .divrasp{
+        background-color: black;
+        height: 4rem;
+        display: flex;
+        justify-content: center;  
+
+    }
+
+    .sectionraspb{
+        background-color: rgb(194, 0, 39);
+        height: 420px;
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    h4{
+        font-family:Bad;
+        font-size: 4rem;
+        color:white;
+        text-align: start;
+        letter-spacing: 3px;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .spanh4{
+        font-family:Bad;
+        color: black;
+        font-size: 4rem;
+        text-shadow: 2px 2px 5px white;
+    }
+
+    .sectionraspb article{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .sectionraspb article ul li{
+        font-family:Kartooni;
+        color: rgb(15, 14, 14);
+        text-align:start;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        list-style-type: none;
+        margin-bottom: 18px;  
+    }
+
+    .sectionraspb article div button{
+        font-family:Kartooni;
+        background-color:rgb(77, 73, 73);
+        color: white;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+        text-shadow: 1px 1px 3px black;
+    }
+
+/*_____________________________              SECTION CARTE MICRO SD                _____________________________*/
+
+    .divsd{
+        background-color: black;
+        height: 4rem;
+        text-align: center;
+    }
+
+
+    .sectionsd{
+        background-color: rgb(77, 73, 73);
+        height: 420px;
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    h5{
+        font-family:Bad;
+        font-size: 4rem;
+        color:rgb(0, 9, 88);
+        text-align: end;
+        letter-spacing: 3px;
+        text-shadow: 2px 2px 5px white;
+    }
+
+    .spanh5{
+        font-family:Bad;
+        color: white;
+        font-size: 4rem;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .sectionsd article{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: right;
+    }
+
+    .sectionsd article ul li{
+        font-family:Kartooni;
+        color: white;
+        text-align:end;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        list-style-type: none;
+        margin-bottom: 18px;  
+    }
+
+    .sectionsd article div button{
+        font-family:Kartooni;
+        background-color:rgb(194, 0, 39);
+        color: white;
+        font-size: 1.5rem;
+        padding: 10px;
+        margin-top: 10px;
+        text-shadow: 1px 1px 3px black;
+    }
+
+/*_____________________________              SECTION BOITIER                _____________________________*/
+
+    .divboitier{
+        background-color: black;
+        height: 4rem;
+        text-align: center;
+    }
+
+
+    .sectionboitier{
+        background-color: rgb(194, 0, 39);
+        height: 420px;
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    h6{
+        font-family:Bad;
+        font-size: 4rem;
+        color:white;
+        text-align: start;
+        letter-spacing: 3px;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .spanh6{
+        font-family:Bad;
+        color: black;
+        font-size: 4rem;
+        text-shadow: 2px 2px 5px white;
+    }
+
+    .sectionboitier article{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .sectionboitier article ul li{
+        font-family:Kartooni;
+        color: rgb(15, 14, 14);
+        text-align:start;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        list-style-type: none;
+        margin-bottom: 18px; 
+    }
+
+
+
+    .sectionboitier article div button{
+        font-family:Kartooni;
+        background-color:rgb(77, 73, 73);
+        color: white;
+        font-size: 1.5rem;
+        padding: 10px;
+        margin-top: 10px;
+        text-shadow: 1px 1px 3px black;
+    }
+
+/*_____________________________              SECTION HDMI           _____________________________*/
+
+    .divhdmi{
+        background-color: black;
+        height: 4rem;
+        display: flex;
+        justify-content: center   
+    }
+
+    .sectionhdmi{
+        background-color: rgb(77, 73, 73);
+        overflow: hidden;
+        height: 420px;
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sectionhdmi p{
+        font-family:Bad;
+        font-size: 4rem;
+        color:rgb(0, 9, 88);
+        text-align: start;
+        letter-spacing: 3px;
+        text-shadow: 2px 2px 5px white;
+    }
+
+    .spanh7{
+        font-family:Bad;
+        color: white;
+        font-size: 4rem;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .sectionhdmi article{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: right;
+    }
+
+    .sectionhdmi article ul li{
+        font-family:Kartooni;
+        color: white;
+        text-align:end;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        list-style-type: none;
+        margin-bottom: 18px;  
+    }
+
+    .sectionhdmi article div button{
+        font-family:Kartooni;
+        background-color:rgb(194, 0, 39);
+        color: white;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+        text-shadow: 1px 1px 3px black;
+    }
+
+/*_____________________________                SECTION DONGLE              _____________________________*/
+
+    .divdongle{
+        background-color: black;
+        height: 4rem;
+        text-align: center; 
+    }
+
+    .sectiondongle{
+        background-color: rgb(194, 0, 39);
+        height: 420px;
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sectiondongle p{
+        font-family:Bad;
+        font-size: 4rem;
+        color:white;
+        text-align: start;
+        letter-spacing: 3px;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .spanh8{
+        font-family:Bad;
+        color: black;
+        font-size: 4rem;
+        text-shadow: 2px 2px 5px white;
+    }
+
+    .sectiondongle article{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .sectiondongle article ul li{
+        font-family:Kartooni;
+        color: rgb(15, 14, 14);
+        text-align:start;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        list-style-type: none;
+        margin-bottom: 18px; 
+    }
+
+    .sectiondongle article div button{
+        font-family:Kartooni;
+        background-color:rgb(77, 73, 73);
+        color: white;
+        font-size: 1.5rem;
+        padding: 10px;
+        margin-top: 10px;
+        text-shadow: 1px 1px 3px black;
+    }
+
+    .btndouble button{
+        font-family:Kartooni;
+        color: white;
+        font-size: 1.5rem;
+        padding: 10px;
+        margin-top: 10px;
+        text-shadow: 1px 1px 3px black;
+    }
+
+/*_____________________________                SECTION MANETTE              _____________________________*/
+
+    .divmanette{
+        background-color: black;
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sectionmanette{
+        background-color: rgb(77, 73, 73);
+        height: 420px;
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sectionmanette p{
+        font-family:Bad;
+        font-size: 4rem;
+        color:rgb(0, 9, 88);
+        text-align: start;
+        letter-spacing: 3px;
+        text-shadow: 2px 2px 5px white;
+    }
+
+    .sectionmanette article{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: right;
+    }
+
+    .sectionmanette article ul li{
+        font-family:Kartooni;
+        color: white;
+        text-align:end;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        list-style-type: none;
+        margin-bottom: 18px; 
+    }
+
+    .sectionmanette article div button{
+        font-family:Kartooni;
+        background-color:rgb(194, 0, 39);
+        color: white;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+        text-shadow: 1px 1px 3px black;
+    }
+
+/*_____________________________                SECTION ALIMENTATION              _____________________________*/
+
+    .divalim{
+        background-color: black;
+        height: 4rem;
+        display: flex;
+        justify-content: center
+    }
+
+    .sectionalim{
+        background-color: rgb(194, 0, 39);
+        height: 420px;
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sectionalim p{
+        font-family:Bad;
+        font-size: 4rem;
+        color:white;
+        text-align: start;
+        letter-spacing: 3px;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .spanh10{
+        font-family:Bad;
+        color: black;
+        font-size: 4rem;
+        text-shadow: 2px 2px 5px white;
+    }
+
+    .sectionalim article{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .sectionalim article ul li{
+        font-family:Kartooni;
+        color: rgb(15, 14, 14);
+        text-align:start;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        list-style-type: none;
+        margin-bottom: 18px;  
+    }
+
+    .sectionalim article div button{
+        font-family:Kartooni;
+        background-color:rgb(77, 73, 73);
+        color: white;
+        font-size: 1.5rem;
+        padding: 10px;
+        margin-top: 10px;
+        text-shadow: 1px 1px 3px black;
+    }
+
+/*_____________________________                SECTION PROMO              _____________________________*/
+
+     .imgtext{
+         display: flex;
+         justify-content: space-between
+    }
+
+    .divpromo{
+        background-color: black;
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+
+    .sectionpromo{
+        background-color: rgb(77, 73, 73);
+    }
+
+    .sectionpromo .imgtext .pendant{
+        margin-right: 300px;
+        font-family:Bad;
+        font-size: 4rem;
+        color:rgb(0, 9, 88);
+        letter-spacing: 3px;
+        text-shadow: 2px 2px 5px white;
+        text-align: center;
+    }
+
+    .spanpendant{
+        font-family:Bad;
+        color: white;
+        font-size: 4rem;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    .sectionpromo .imgtext{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sectionpromo .article2{
+        text-align: center;
+    }
+
+    .divpromoaremp{
+        text-align: center;
+
+    }
+
+    .sectionpromo p{
+        font-family: bad;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .divideo{
+        text-align: center;
+    }
+
+    .sectionpromo .divbtnpromo button{
+        font-family:Kartooni;
+        background-color:rgb(194, 0, 39);
+        color: white;
+        font-size: 1.5rem;
+        padding: 10px;
+        margin-top: 10px;
+        text-shadow: 1px 1px 3px black;
+    }
+
+    .sectionpromo .divbtnpromo{
+        text-align: center;
+        padding: 20px 0;
+    }
+
+/*_____________________________              FOOTER  NEWS LETTER          _____________________________*/
+
+    .divfooter{
+        background-color: black;
+        height: 5rem;
+        text-align: center;
+    }
+
+    .pfooter{
+        font-family: Foot;
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    .divfielset{
+        display: flex;
+        justify-content: center;   
+    }
+
+    fieldset{
+        background-color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    fieldset label{
+        font-family: Foot; 
+    }
+
+/*_____________________________                  FOOTER                 _____________________________*/
+
+    .sectionfooter{
+        background-color: rgb(194, 0, 39);  
+    }
+
+    .sectionfooter article{
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .sectionfooter article ul li{
+        font-family:Kartooni;
+        color: rgb(15, 14, 14);
+        text-align:start;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        list-style-type: none;
+        margin-top: 20px;  
+    }
+
+    .sectionfooter article ul .liend{
+        font-family:Kartooni;
+        color: rgb(15, 14, 14);
+        text-align:end;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        list-style-type: none;
+        margin-top: 20px;  
+    }
+
+    .sectionfooter article .lititre{
+        color: white;
+        margin-bottom: 30px;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .sectionfooter article .lititre2{
+        color: white;
+        text-align:end;
+        margin-bottom: 30px;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .plivraison{
+        font-family:Kartooni;
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        text-align: center;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .sectionfooter .divlivraison{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .sectionfooter .imguber{
+        width: 20%;
+        border: solid 1px rgb(49, 48, 48);
+        border-radius: 10px;
+    }
+
+    .sectionfooter .imgpaie{
+        width: 30%;
+    }
+
+    .sectionfooter .imgavis{
+        width: 25%;
+        text-align: center;
+    }

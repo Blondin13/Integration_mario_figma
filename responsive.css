@@ -1,0 +1,616 @@
+@media screen and (max-width: 1280px){
+
+
+    header{
+        background-color: rgb(194, 0, 39);
+        text-align: center;   
+    }
+    
+    h1{
+        font-family:Mario;
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+/*_____________________________            (max-width: 1250px)               _____________________________*/
+/*_____________________________            DOUBLE DES BOUTTON                _____________________________*/
+@media screen and (max-width: 1250px){
+
+    .btn{
+        display: none;
+    }
+    
+    .btndouble{
+    display: inline; 
+    }
+/*_____________________________                 SECTION KIT                  _____________________________*/
+
+    .sectionkit{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sectionkit img{
+        margin: auto;
+        width: 60%;
+    }
+
+    .sectionkit div{
+        width: 100%;
+    }
+
+    .sectionkit div ol li{
+        text-align: center;
+    }
+
+/*_____________________________              SECTION RASPBERRY                _____________________________*/
+
+    .sectionraspb{
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    .sectionraspb img{
+        margin: auto;
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    .sectionraspb div{
+        width: 100%;
+    }
+
+    .sectionraspb div h4{
+        text-align: center;
+    }
+
+    .sectionraspb div ul li{
+        text-align: center;
+    } 
+
+/*_____________________________             SECTION CARTE MICRO SD             _____________________________*/
+
+    .sectionsd{
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    .sectionsd img{
+        margin: auto;
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    .sectionsd div{
+        width: 100%;
+    }
+
+    .sectionsd div h5{
+        text-align: center;
+    }
+
+    .sectionsd div ul li{
+        text-align: center;
+    }
+    .btnsd{
+        text-align: center;
+      
+    }
+
+/*_____________________________                SECTION BOITIER                _____________________________*/
+
+    .sectionboitier{
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    .sectionboitier img{
+        margin: auto;
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    .sectionboitier div{
+        width: 100%;
+    }
+
+    .sectionboitier div h6{
+        text-align: center;
+    }
+
+    .sectionboitier div ul li{
+        text-align: center;
+    }
+
+/*_____________________________                  SECTION HDMI                  _____________________________*/
+
+    .sectionhdmi{
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    .sectionhdmi img{
+        margin: auto;
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    .sectionhdmi div{
+        width: 100%;
+    }
+
+    .sectionhdmi p{
+        text-align: center;
+        width: 100%;
+    }
+
+    .sectionhdmi div ul li{
+        text-align: center;
+    }
+    .btnhdmi{
+        text-align: center;
+    }
+
+/*_____________________________                   DONGLE                      _____________________________*/
+
+    .sectiondongle{
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    .sectiondongle img{
+        margin: auto;
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    .sectiondongle div{
+        width: 100%;
+    }
+
+    .sectiondongle div p{
+        text-align: center;
+    }
+
+    .sectiondongle div ul li{
+        text-align: center;
+    }
+
+/*_____________________________                     MANETTE                    _____________________________*/
+
+    .sectionmanette{
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    .sectionmanette img{
+        margin: auto;
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    .sectionmanette div{
+        width: 100%;
+    }
+
+    .sectionmanette p{
+        text-align: center;
+        width: 100%;
+    }
+
+    .sectionmanette div ul li{
+        text-align: center;
+    }
+    .btnman{
+        text-align: center; 
+    }
+
+/*_____________________________                  ALIMENTATION                 _____________________________*/
+
+    .sectionalim{
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    .sectionalim img{
+        margin: auto;
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    .sectionalim div{
+        width: 100%;
+    }
+
+    .sectionalim div p{
+        text-align: center;
+    }
+
+    .sectionalim div ul li{
+        text-align: center;
+    }
+
+/*_____________________________                  SECTION PROMO                 _____________________________*/
+
+    .divpromo{
+        text-align: center;
+    }
+
+    .sectionpromo .img-text{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sectionpromo div img{
+        margin-left: 0px;
+        width: 20%;
+    }
+
+    .sectionpromo div .pendant{
+        margin-right: 170px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .sectionpromo img{
+        margin: auto;
+        width: 40%;
+        display: flex;
+        text-align: start;
+        margin-bottom: 20px;
+    }
+
+    .sectionpromo div{
+        width: 100%;
+    }
+
+    .sectionpromo div p{
+        text-align: center;
+    }
+
+    .sectionpromo .divpromoaremp .codepromo{
+      text-align: center;
+      margin: auto;
+      padding: auto; 
+      width: 40%;
+    }
+
+    .sectionpromo div iframe{
+        width: 90%;
+    }
+}
+
+/*_____________________________               (max-width: 1050px)               _____________________________*/
+/*_____________________________                 SECTION PROMO                   _____________________________*/
+
+@media screen and (max-width: 1050px){
+
+
+    .sectionpromo .imgtext .pendant{
+        margin-bottom: 30px;
+        margin-left: 90px;
+    }
+}
+
+/*_____________________________               (max-width: 900px)               _____________________________*/
+/*_____________________________             SECTION DIV RASPBERRY              _____________________________*/
+
+@media screen and (max-width: 900px){
+
+    .divrasp img{
+        width: 100%;
+    }
+/*_____________________________                 SECTION PROMO                  _____________________________*/
+    .sectionpromo img{
+        display: none;
+    }
+
+    .sectionpromo .imgtext .pendant{
+        margin-bottom: 30px;
+        margin-left: 300px;
+    }
+
+    .sectionpromo .img-text .pendant{
+        font-size: 2rem;
+    }
+
+    .sectionpromo .img-text .spanpendant{
+        font-size: 2rem;
+    }
+}
+
+/*_____________________________               (max-width: 760px)               _____________________________*/
+/*_____________________________                  SECTION PROMO                 _____________________________*/ 
+
+@media screen and (max-width: 760px){
+
+    .sectionpromo .img-text .pendant{
+        font-size: 2.5rem;
+    }
+
+    .sectionpromo .img-text .spanpendant{
+        font-size: 2.5rem;
+    }
+
+    .sectionpromo p{
+        font-size: 2rem;
+    }
+}
+
+/*_____________________________               (max-width: 690px)               _____________________________*/
+/*_____________________________                  SECTIONKIT                    _____________________________*/
+
+    @media screen and (max-width: 690px){
+        
+    .sectionkit h3{
+        font-size: 3rem;
+
+    }.sectionkit article ol li{
+        font-size: 1rem;
+    
+    }
+
+/*_____________________________               SECTION  RASPBERRY               _____________________________*/
+
+
+    .sectionraspb div h4{
+        font-size: 3rem;
+    }
+
+    .sectionraspb div .spanh4{
+        font-size: 3rem;
+    }
+
+    .sectionraspb div ul li{
+        font-size: 1rem;
+    }
+
+/*_____________________________                    SECTION  SD                  _____________________________*/
+
+
+    .sectionsd div h5{
+        font-size: 3rem;
+    }
+
+    .sectionsd div .spanh5{
+        font-size: 3rem;
+    }
+
+    .sectionsd div ul li{
+        font-size: 1rem;
+    }
+
+/*_____________________________                  SECTION  BOITIER                _____________________________*/
+
+
+    .sectionboitier div h6{
+        font-size: 3rem;
+    }
+
+    .sectionboitier div .spanh6{
+        font-size: 3rem;
+    }
+
+    .sectionboitier div ul li{
+        font-size: 1rem;
+    }
+
+/*_____________________________                    SECTION  HDMI                  _____________________________*/
+
+
+    .sectionhdmi div p{
+        font-size: 3rem;
+    }
+
+    .sectionhdmi div p{
+        font-size: 3rem;
+    }
+
+    .sectionhdmi div ul li{
+        font-size: 1rem;
+    }
+    .spanh7{
+        font-size: 3rem;
+    }
+
+/*_____________________________                   SECTION  DONGLE                 _____________________________*/
+
+
+    .sectiondongle div p{
+        font-size: 3rem;
+    }
+
+    .sectiondongle div p{
+        font-size: 3rem;
+    }
+
+    .sectiondongle div ul li{
+        font-size: 1rem;
+    }
+    .spanh8{
+        font-size: 3rem;
+    }
+
+    
+/*_____________________________                   SECTION  MANETTE                _____________________________*/
+
+
+    .sectionmanette div p{
+        font-size: 3rem;
+    }
+
+    .sectionmanette div p{
+        font-size: 3rem;
+    }
+
+    .sectionmanette div ul li{
+        font-size: 1rem;
+    }
+
+/*_____________________________                 SECTION  ALIMENTATION             _____________________________*/
+
+    .sectionalim div p{
+        font-size: 3rem;
+    }
+
+    .sectionalim div p{
+        font-size: 3rem;
+    }
+
+    .sectionalim div ul li{
+        font-size: 1rem;
+    }
+    .spanh10{
+        font-size: 3rem;
+    }
+
+/*_____________________________                 SECTION  PROMO            _____________________________*/
+
+    h2{
+        font-size: 1.5rem;
+        margin-top: 0%;
+    }
+
+    span{
+        font-size: 2.5rem;
+    }
+
+    .sectionpromo p{
+        font-size: 2rem;
+    }
+
+    .pendant{
+        display: none;
+    }
+
+    .pendantpetit{
+        display: inline;
+    }
+
+    .sectionpromo .imgtext{
+        justify-content: center;
+    }
+    .sectionpromo .imgtext .pendantpetit{
+    font-family:Bad;
+    color:rgb(0, 9, 88);
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 5px white;
+    display: flex;
+    
+}
+
+/*_____________________________               (max-width: 580px)               _____________________________*/
+/*_____________________________                     HAEDER                     _____________________________*/
+
+@media screen and (max-width: 580px){
+    header{
+        display: flex;
+        align-items: center;
+    }
+
+    header > img:not(:last-child){
+      display: none;
+    }
+
+    header > img:not(:first-child){
+        width: 30%;
+    }
+    
+    header h1{
+        font-size: 2.5rem;
+    }
+
+/*_____________________________                     FOOTER                    _____________________________*/
+
+    footer .sectionfooter article ul li{
+        font-size: 0.8rem; 
+    }
+
+    footer .sectionfooter article .ul2 li{
+        font-size: 0.8rem;
+    }
+    
+    footer .sectionfooter .plivraison{
+        font-size: 1rem;
+    }
+/*_____________________________      SEPARATION IMG(space,pacman,etc..)      _____________________________*/
+
+    .divsd img{
+        width: 100%;
+    }
+
+    .divboitier img{
+        width: 100%;
+    }
+
+    .divhdmi img{
+        width: 100%;
+    }
+
+    .divdongle img{
+        width: 100%;
+    }
+
+    .divmanette img{
+        width: 100%;
+    }
+
+    .divalim img{
+        width: 100%;
+    }
+}
+
+/*_____________________________               (max-width: 460px)               _____________________________*/
+/*_____________________________                 SECTION PROMO                  _____________________________*/
+
+@media screen and (max-width: 460px){
+
+    .sectionpromo .imgtext .pendant{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .sectionpromo .imgtext .pendant .spanh3{
+        font-size: 1.5rem;
+    }
+/*_____________________________                     FOOTER                    _____________________________*/
+
+    footer .sectionfooter article ul li{
+        font-size: 0.5rem; 
+    }
+
+    footer .sectionfooter article .ul2 li{
+        font-size: 0.5rem;
+    }
+    
+    footer .sectionfooter .plivraison{
+        font-size: 0.8rem;
+    }
+}
+
+/*_____________________________               (max-width: 460px)               _____________________________*/
+/*_____________________________                 SECTION PROMO 2                 _____________________________*/
+
+    .pendant{
+        display: none;
+    }
+    .pendantpetit{
+        display: inline;
+    }
+
+    .sectionpromo .imgtext .pendantpetit{
+    font-family:Bad;
+    color:rgb(0, 9, 88);
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 5px white;
+    text-align: center;
+    }
+}
