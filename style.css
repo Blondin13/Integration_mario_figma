@@ -558,13 +558,12 @@
     }
 
     .sectionpromo .imgtext .pendant{
-        margin-right: 300px;
+        margin-right: 400px;
         font-family:Bad;
         font-size: 4rem;
         color:rgb(0, 9, 88);
         letter-spacing: 3px;
         text-shadow: 2px 2px 5px white;
-        text-align: center;
     }
 
     .spanpendant{
