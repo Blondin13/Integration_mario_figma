@@ -1,6 +1,5 @@
 @media screen and (max-width: 1280px){
 
-
     header{
         background-color: rgb(194, 0, 39);
         text-align: center;   
@@ -12,7 +11,6 @@
         text-align: center;
     }
 }
-
 /*_____________________________            (max-width: 1250px)               _____________________________*/
 /*_____________________________            DOUBLE DES BOUTTON                _____________________________*/
 @media screen and (max-width: 1250px){
@@ -43,7 +41,6 @@
     .sectionkit div ol li{
         text-align: center;
     }
-
 /*_____________________________              SECTION RASPBERRY                _____________________________*/
 
     .sectionraspb{
@@ -69,7 +66,6 @@
     .sectionraspb div ul li{
         text-align: center;
     } 
-
 /*_____________________________             SECTION CARTE MICRO SD             _____________________________*/
 
     .sectionsd{
@@ -99,7 +95,6 @@
         text-align: center;
       
     }
-
 /*_____________________________                SECTION BOITIER                _____________________________*/
 
     .sectionboitier{
@@ -125,7 +120,6 @@
     .sectionboitier div ul li{
         text-align: center;
     }
-
 /*_____________________________                  SECTION HDMI                  _____________________________*/
 
     .sectionhdmi{
@@ -155,7 +149,6 @@
     .btnhdmi{
         text-align: center;
     }
-
 /*_____________________________                   DONGLE                      _____________________________*/
 
     .sectiondongle{
@@ -181,7 +174,6 @@
     .sectiondongle div ul li{
         text-align: center;
     }
-
 /*_____________________________                     MANETTE                    _____________________________*/
 
     .sectionmanette{
@@ -211,7 +203,6 @@
     .btnman{
         text-align: center; 
     }
-
 /*_____________________________                  ALIMENTATION                 _____________________________*/
 
     .sectionalim{
@@ -237,7 +228,6 @@
     .sectionalim div ul li{
         text-align: center;
     }
-
 /*_____________________________                  SECTION PROMO                 _____________________________*/
 
     .divpromo{
@@ -287,28 +277,24 @@
         width: 90%;
     }
 }
-
 /*_____________________________               (max-width: 1050px)               _____________________________*/
 /*_____________________________                 SECTION PROMO                   _____________________________*/
-
 @media screen and (max-width: 1050px){
-
 
     .sectionpromo .imgtext .pendant{
         margin-bottom: 30px;
         margin-left: 90px;
     }
 }
-
 /*_____________________________               (max-width: 900px)               _____________________________*/
 /*_____________________________             SECTION DIV RASPBERRY              _____________________________*/
-
 @media screen and (max-width: 900px){
 
     .divrasp img{
         width: 100%;
     }
 /*_____________________________                 SECTION PROMO                  _____________________________*/
+
     .sectionpromo img{
         display: none;
     }
@@ -326,10 +312,8 @@
         font-size: 2rem;
     }
 }
-
 /*_____________________________               (max-width: 760px)               _____________________________*/
 /*_____________________________                  SECTION PROMO                 _____________________________*/ 
-
 @media screen and (max-width: 760px){
 
     .sectionpromo .img-text .pendant{
@@ -344,10 +328,8 @@
         font-size: 2rem;
     }
 }
-
 /*_____________________________               (max-width: 690px)               _____________________________*/
 /*_____________________________                  SECTIONKIT                    _____________________________*/
-
     @media screen and (max-width: 690px){
         
     .sectionkit h3{
@@ -357,9 +339,7 @@
         font-size: 1rem;
     
     }
-
 /*_____________________________               SECTION  RASPBERRY               _____________________________*/
-
 
     .sectionraspb div h4{
         font-size: 3rem;
@@ -372,9 +352,7 @@
     .sectionraspb div ul li{
         font-size: 1rem;
     }
-
 /*_____________________________                    SECTION  SD                  _____________________________*/
-
 
     .sectionsd div h5{
         font-size: 3rem;
@@ -387,9 +365,7 @@
     .sectionsd div ul li{
         font-size: 1rem;
     }
-
 /*_____________________________                  SECTION  BOITIER                _____________________________*/
-
 
     .sectionboitier div h6{
         font-size: 3rem;
@@ -402,9 +378,7 @@
     .sectionboitier div ul li{
         font-size: 1rem;
     }
-
 /*_____________________________                    SECTION  HDMI                  _____________________________*/
-
 
     .sectionhdmi div p{
         font-size: 3rem;
@@ -420,9 +394,7 @@
     .spanh7{
         font-size: 3rem;
     }
-
 /*_____________________________                   SECTION  DONGLE                 _____________________________*/
-
 
     .sectiondongle div p{
         font-size: 3rem;
@@ -438,10 +410,7 @@
     .spanh8{
         font-size: 3rem;
     }
-
-    
 /*_____________________________                   SECTION  MANETTE                _____________________________*/
-
 
     .sectionmanette div p{
         font-size: 3rem;
@@ -454,7 +423,6 @@
     .sectionmanette div ul li{
         font-size: 1rem;
     }
-
 /*_____________________________                 SECTION  ALIMENTATION             _____________________________*/
 
     .sectionalim div p{
@@ -471,7 +439,6 @@
     .spanh10{
         font-size: 3rem;
     }
-
 /*_____________________________                 SECTION  PROMO            _____________________________*/
 
     h2{
@@ -504,12 +471,10 @@
     letter-spacing: 3px;
     text-shadow: 2px 2px 5px white;
     display: flex;
-    
+    }
 }
-
 /*_____________________________               (max-width: 580px)               _____________________________*/
 /*_____________________________                     HAEDER                     _____________________________*/
-
 @media screen and (max-width: 580px){
     header{
         display: flex;
@@ -527,7 +492,6 @@
     header h1{
         font-size: 2.5rem;
     }
-
 /*_____________________________                     FOOTER                    _____________________________*/
 
     footer .sectionfooter article ul li{
@@ -543,7 +507,6 @@
     }
 /*_____________________________      SEPARATION IMG(space,pacman,etc..)      _____________________________*/
     
-
     .divsd img{
         height: 100%;
         width: 100%;
@@ -571,10 +534,8 @@
         width: 100%;
     }
 }
-
 /*_____________________________               (max-width: 460px)               _____________________________*/
 /*_____________________________                 SECTION PROMO                  _____________________________*/
-
 @media screen and (max-width: 460px){
 
     .sectionpromo .imgtext .pendant{
@@ -598,14 +559,12 @@
     footer .sectionfooter .plivraison{
         font-size: 0.8rem;
     }
-}
-
-/*_____________________________               (max-width: 460px)               _____________________________*/
 /*_____________________________                 SECTION PROMO 2                 _____________________________*/
 
     .pendant{
         display: none;
     }
+    
     .pendantpetit{
         display: inline;
     }
